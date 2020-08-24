@@ -3,7 +3,7 @@
 This application is an example to learn more about the communication with Kafka. Here you have examples to run a simple application local host in Python
 
 ## Pre conditional
-You will need to have Kafka Server in localhost with the following topics: tdc-entrada and tdc-saida.
+You will need to have Kafka Server in localhost with the following topics: tdc-entrada and tdc-saida. To install kafka serve in the localhost, you could see the article (it is in portugese): https://medium.com/@robsonagapito/subindo-o-kafka-em-localhost-no-windows-288c66b1b71a
 
 We use Python 3 and the library confluent_kafka that it needs to be installed. We use package json too, however you will not install anything.
 
