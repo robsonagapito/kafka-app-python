@@ -11,6 +11,8 @@ Example:
 pip install confluent-kafka
 
 ## Application
+
+### Process
 The process handled by application is:
 
 - main_frame.py is a producer, and it sends message to tdc-entrada topic (with value: <user>;<name>;<phone>).
