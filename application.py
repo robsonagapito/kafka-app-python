@@ -1,5 +1,5 @@
 from confluent_kafka import KafkaError
-from models.message import Message
+from services.message import Message
 from services.kafka import Kafka
 
 message = Message()
