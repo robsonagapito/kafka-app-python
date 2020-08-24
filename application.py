@@ -1,6 +1,6 @@
 from confluent_kafka import KafkaError
-from message import Message
-from kafka import Kafka
+from models.message import Message
+from services.kafka import Kafka
 
 message = Message()
 producer = Kafka()

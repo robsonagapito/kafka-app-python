@@ -1,4 +1,4 @@
-from kafka import Kafka
+from services.kafka import Kafka
 from confluent_kafka import KafkaError
 
 kafka = Kafka()

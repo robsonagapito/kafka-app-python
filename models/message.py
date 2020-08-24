@@ -1,5 +1,5 @@
-from user import User
-from user_error import UserError
+from models.user import User
+from models.user_error import UserError
 
 class Message():
 
